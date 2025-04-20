@@ -1,7 +1,0 @@
-name: Security Scan 5
-on: [push]
-jobs:
-  scan:
-    runs-on: ubuntu-latest
-    steps:
-      - run: echo "Running security automation"
