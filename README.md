@@ -1,16 +1,17 @@
-﻿# 🚀 High-Frequency Telemetry & SOC Automation Engine
+﻿# Sentinel-Log Framework v2.0 🛡️⚡
+### Python Automation Engineer | Cybersecurity & SOC Analyst
 
-Este repositorio es un entorno de simulación avanzado para procesos de **detección de amenazas y telemetría de red**.
+Este repositorio es una demostración técnica de **Ingeniería de Telemetría** y **Automatización de Auditoría Forense** con enfoque en SOC.
 
-## 📁 Estructura del Proyecto
-- **/src_telemetry_logs**: Contiene módulos dinámicos de Python y logs de auditoría que simulan un sistema SOAR (Security Orchestration, Automation, and Response).
-- **automation_pulse.db**: Registro persistente de latidos del sistema (heartbeats) para validación de datos.
+## 🛡️ Foco del Proyecto
+* **Threat Detection:** Simulación de telemetría tipo EDR para monitoreo en tiempo real.
+* **Forensic Auditing:** Registro estructurado de eventos con integridad referencial.
+* **High-Frequency Engineering:** Gestión de más de 15,000 logs atómicos integrados en el índice de Git.
 
-## 🛠️ Desafío de Ingeniería: Escalabilidad de Git
-El proyecto funciona como un **caso de estudio de performance sobre el índice de Git**:
-- **Alta Frecuencia:** Se ejecutaron más de 15,000 commits atómicos para validar la integridad de flujos de datos masivos.
-- **Resiliencia de I/O:** Implementación de scripts de PowerShell para manejo de condiciones de carrera (Race Conditions) y bloqueos de archivos en Windows.
-- **Trazabilidad:** Cada commit representa un registro real de actividad procesado por el motor de automatización.
+## 🛠️ Stack Técnica Aplicada
+* **Python (Expert):** Lógica central de generación de logs y monitoreo.
+* **Security Ops:** Simulación de SIEM y análisis de eventos de integridad.
+* **Git Forensics:** Optimización de infraestructura para trazabilidad masiva de datos.
 
-## 👤 Autor
-**Jorge Otero** - Full Stack Software Developer & Cybersecurity Specialist.
+---
+*Desarrollado por Jorge Otero - Especialista en Automatización y Seguridad Digital.*
