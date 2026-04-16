@@ -4,8 +4,7 @@ from datetime import datetime, timedelta
 
 start_date = datetime(2025, 11, 6)
 total_days = 162
-# Bajamos la cantidad de procesos para que Windows no se trabe,
-# pero el resultado visual en GitHub será el mismo verde oscuro.
+
 commits_per_day = 10 
 
 print(">>> MODO VELOCIDAD CRITICA: Finalizando historial...")
@@ -17,7 +16,7 @@ for day in range(total_days + 1):
     os.environ['GIT_AUTHOR_DATE'] = date_str
     os.environ['GIT_COMMITTER_DATE'] = date_str
     
-    # Creamos un bloque de comandos mas chico
+    
     commands = [f'git commit -m "System Integrity Check - Log {j} - {date_str}" --allow-empty --quiet' for j in range(1, commits_per_day + 1)]
     full_cmd = " && ".join(commands)
     
